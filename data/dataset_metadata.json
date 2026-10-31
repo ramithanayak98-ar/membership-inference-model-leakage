@@ -1,0 +1,26 @@
+{
+  "dataset_name": "CliniLeak-4K Sensitive Clinical & Genomic EHR Dataset",
+  "authors": [
+    "Ramitha Nayak MV (PES1UG24AM392)",
+    "Shreya N Hegde (PES1UG24AM401)"
+  ],
+  "total_records": 2400,
+  "num_features": 28,
+  "num_classes": 6,
+  "class_names": [
+    "0: Normal / Low-Risk Baseline",
+    "1: Type-2 Metabolic Syndrome",
+    "2: Chronic Cardiovascular Arrhythmia",
+    "3: Autoimmune Inflammatory Disorder",
+    "4: Early-Stage Oncological Biomarker Positive",
+    "5: Rare Neuro-Genetic Syndrome"
+  ],
+  "split_sizes": {
+    "target_train_members": 600,
+    "target_test_non_members": 600,
+    "shadow_train_members": 600,
+    "shadow_test_non_members": 600
+  },
+  "rare_subpopulation_ratio": 0.1996,
+  "seed": 42
+}

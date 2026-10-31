@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  mia-pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: membership-inference-leakage-pipeline
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+    command: python3 run_pipeline.py
